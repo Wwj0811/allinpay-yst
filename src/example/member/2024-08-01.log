@@ -1,0 +1,4 @@
+请求参数{"appId":"21762000921804636162","charset":"UTF-8","format":"json","spAppId":"","transCode":"1023","transDate":"20240801","transTime":"155921","version":"1.0","bizData":"{\"signNum\":\"lvhuaiying\",\"acctType\":\"01\"}","sign":"MEQCIExKm6dMiWAOmvOS6QSLhYv3Ev+D9PZLUiPbM2D0GaLEAiAjZTay\/lh0Gy2EHEowuyTvZtIRT7Djyc4nDRfcN4nivQ==","signType":"SM3withSM2"}
+
+返回结果{"msg":"调用成功","code":"00000","sign":"MEQCIG7xpuDjelSQSwKl7LFaxFkb8OvN41OMFwtXJlfBTRW/AiBx/dv/T4jvho3jiKXlRrSL6AUcF3pX28mJkFKUeNPM6w==","bizData":"{\"balanceDetail\":\"[{\\\"acctNum\\\":\\\"40726112902025701\\\",\\\"acctType\\\":\\\"01\\\",\\\"availableAmt\\\":0,\\\"totalAmt\\\":1,\\\"transitAmt\\\":1,\\\"yesAmt\\\":1}]\",\"signNum\":\"lvhuaiying\",\"respMsg\":\"交易成功\",\"respCode\":\"00000\"}"}
+

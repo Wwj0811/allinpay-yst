@@ -1,0 +1,8 @@
+请求参数{"appId":"21762000921804636162","charset":"UTF-8","format":"json","spAppId":"","transCode":"1023","transDate":"20240802","transTime":"161813","version":"1.0","bizData":"{\"signNum\":\"lvhuaiying\",\"acctType\":\"01\"}","sign":"","signType":"SM3withSM2"}
+
+返回结果{"msg":"必填域缺失(sign)","code":"99999"}
+
+请求参数{"appId":"21762000921804636162","charset":"UTF-8","format":"json","spAppId":"","transCode":"1023","transDate":"20240802","transTime":"161835","version":"1.0","bizData":"{\"signNum\":\"lvhuaiying\",\"acctType\":\"01\"}","sign":"MEUCICXrdxhytfwGoM8Ydb+28Xv\/Hwu42KBROEpZTQBDxz3RAiEAlaYk4FYf8F1QVQjbyIH2nMFDnBBzoCGIxO6Oc4yOZvU=","signType":"SM3withSM2"}
+
+返回结果{"msg":"调用成功","code":"00000","sign":"MEUCIQDOznzLqGw7Dk0jig/YAfcgYSQsPLhzCr1AKErWiyunDgIgdJkQuPEOxRDnnvSYFf0bTujlaCKbkKBDJo5MAlzWGUM=","bizData":"{\"balanceDetail\":\"[{\\\"acctNum\\\":\\\"40726112902025701\\\",\\\"acctType\\\":\\\"01\\\",\\\"availableAmt\\\":1,\\\"totalAmt\\\":1,\\\"transitAmt\\\":0,\\\"yesAmt\\\":1}]\",\"signNum\":\"lvhuaiying\",\"respMsg\":\"交易成功\",\"respCode\":\"00000\"}"}
+

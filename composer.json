@@ -1,0 +1,23 @@
+{
+    "name": "wangwenjie/allinpay-yst",
+    "description": "通联支付云商通",
+    "type": "library",
+    "require": {
+        "php": "^7.3",
+        "lpilp/guomi": "dev-main",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "allinpayyst\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "'王文杰'",
+            "email": "1246814984@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
