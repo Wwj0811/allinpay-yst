@@ -130,6 +130,8 @@ class Request
 
         $res = self::$client->post($url, $options);
 
+        $res = json_decode($res, true);
+
         return $res;
     }
 
