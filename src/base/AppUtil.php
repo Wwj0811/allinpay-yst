@@ -9,7 +9,6 @@ class AppUtil{
             'text' => self::ToUrlParams($array)
         ]);
         if($res){
-            $res = json_decode($res, true);
             if($res['code'] == 0){
                 return $res['sign'];
             }
