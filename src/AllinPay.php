@@ -19,7 +19,7 @@ class AllinPay
         'transCode' => '',
         // 日志目录
         'log_path' => '',
-        'signUrl' => 'http://localhost:8111/sign',
+        'signUrl' => 'http://localhost:8111',
     );
 
     public function __construct($config = [])
