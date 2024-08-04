@@ -37,8 +37,6 @@ class AllinPay
         }
     }
 
-
-
     public function request($data)
     {
         $data = AppUtil::DeepFilterNulls($data);
@@ -60,6 +58,16 @@ class AllinPay
         Log::Write($this->config['log_path'].'/'.date('Y-m-d').'.log', $req, '请求参数');
         $res = Request::send("json", $this->config['apiurl'], $req);
         Log::Write($this->config['log_path'].'/'.date('Y-m-d').'.log', $res, '返回结果');
-        return $res;
+        $res = json_decode($res, true);
+        if($res){
+            if($res['code'] == '00000'){
+                $bizData = $res['bizData']??'';
+                if(is_string($bizData)){
+                    $bizData = json_decode($bizData, true);
+                }
+                return $bizData;
+            }
+        }
+        throw new PayException("调用失败：".$res["msg"]??'');
     }
 }

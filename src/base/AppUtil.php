@@ -5,10 +5,11 @@ class AppUtil{
     public static function Sign(array $array, $url)
     {
         // TODO 调用接口获取签名
-        $res = Request::send("json", $url, [
+        $res = Request::send("json", $url.'/sign', [
             'text' => self::ToUrlParams($array)
         ]);
         if($res){
+            $res = json_decode($res, true);
             if($res['code'] == 0){
                 return $res['sign'];
             }

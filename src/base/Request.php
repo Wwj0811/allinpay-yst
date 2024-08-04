@@ -64,10 +64,6 @@ class Request
             $body = $response->getBody();
             $contents = $body->getContents();
 
-            if($type == 'json'){
-                $contents = json_decode($contents, true);
-            }
-
             return $contents;
         }
         catch (\Exception $e){
